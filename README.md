@@ -2,6 +2,7 @@
 This repository contains the implementation of a genetic algorithm based neural network optimization model that we applied on the CIFAR-10 dataset. The ultimate objective of this project is to optimize the weights and biases of the neural network model using genetic algorithms.
 
 ## Repository Structure
+```
 .
 ├── README.md
 ├── nn.py
@@ -14,7 +15,7 @@ This repository contains the implementation of a genetic algorithm based neural 
     ├── mutation.py
     ├── selection.py
     └── utils.py
-
+```
 
 ## Project Overview
 The search space for this optimization problem consists of all combinations of the total number of weights and biases in the neural network, where each weight is a real number. The accuracy of the neural network is the fitness function, with the objective being to maximize the fitness.
